@@ -1,0 +1,11 @@
+ 
+  <view class="classify-swiper">
+    <view id="silde" bindtouchstart='moveStart' bindtouchend='moveItem'>
+      <block wx:for="{{items}}" wx:key="index">
+        <view class="classify-swiper-item" animation="{{item.animation}}"
+          style="z-index:{{item.zIndex}};opacity:{{item.opacity}};right:{{item.right}}rpx;">
+          <image src="{{item.url}}"></image>
+        </view>
+      </block>
+    </view>
+  </view>  

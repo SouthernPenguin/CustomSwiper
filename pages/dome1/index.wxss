@@ -1,0 +1,44 @@
+ .classify-swiper {
+   position: relative;
+   margin: 0 auto;
+   width: 680rpx;
+   height: 670rpx;
+ }
+
+ #silde {
+   position: relative;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-content: center;
+   border: 1px solid #000000;
+   overflow: hidden;
+ }
+
+ .classify-swiper-item {
+   position: absolute;
+   height: 100%;
+   width: 80%;
+   border-radius: 10px;
+   background: #535353;
+ }
+
+ .classify-swiper-item image {
+   height: 100%;
+   width: 100%;
+   border-radius: 10rpx;
+ }
+
+ .more-rubbish {
+   font-size: 30rpx;
+   font-weight: 400;
+   color: rgba(255, 255, 255, 1);
+   width: 355rpx;
+   height: 62rpx;
+   line-height: 62rpx;
+   text-align: center;
+   background: rgba(207, 0, 0, 1);
+   border-radius: 31rpx;
+   margin: 0 auto;
+   margin-top: 44rpx;
+ }
